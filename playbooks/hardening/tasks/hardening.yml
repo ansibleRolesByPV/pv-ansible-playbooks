@@ -1,0 +1,8 @@
+---
+#Install yum security plugin
+- hosts: dev
+  tasks:
+  - name: Install yum security plugins
+    yum: 
+        name=yum-plugin-security 
+        state=present

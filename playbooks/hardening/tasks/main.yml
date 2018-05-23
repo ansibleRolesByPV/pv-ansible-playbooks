@@ -1,2 +1,3 @@
 ---
 # tasks file for hardening
+- include: hardening.yml
